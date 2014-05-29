@@ -1,5 +1,5 @@
-/// <reference path="libs/require.d.ts" />
-/// <reference path="libs/jquery.d.ts" />
+///<reference path="libs/require.d.ts" />
+///<reference path="libs/jquery.d.ts" />
 ///<reference path='tests/App.ts'/>
 ///<reference path='config.ts'/>
 
