@@ -1,0 +1,6 @@
+class SkinBase
+{
+
+}
+
+export = SkinBase;
