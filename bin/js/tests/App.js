@@ -23,6 +23,7 @@ define(["require", "exports", "../kurst/core/UIBase", "jquery", "../kurst/away3d
             p.style.position = 'absolute';
             p.style.left = '30px';
             p.style.top = '30px';
+            p.style.fontFamily = "Arial, Courier";
 
             document.body.appendChild(p);
 
