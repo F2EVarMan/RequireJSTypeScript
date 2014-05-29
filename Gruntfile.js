@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 
     });
 
-	grunt.registerTask('export', 		[ 'ts:main' ]);
+	grunt.registerTask('default', 		[ 'ts:main' ]);
 	grunt.registerTask('watch-main', 	[ 'watch:main' ]);
 
 
