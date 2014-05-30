@@ -4,7 +4,7 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-define(["require", "exports", "../kurst/core/UIBase", "jquery", "../kurst/away3d/TorusPrimitive"], function(require, exports, UIBase, $, TorusPrimitive) {
+define(["require", "exports", "kurst/core/UIBase", "jquery", "kurst/away3d/TorusPrimitive"], function(require, exports, UIBase, $, TorusPrimitive) {
     var App = (function (_super) {
         __extends(App, _super);
         function App() {

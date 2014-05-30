@@ -1,15 +1,16 @@
 ///<reference path="libs/require.d.ts" />
 ///<reference path="libs/jquery.d.ts" />
-///<reference path='tests/App.ts'/>
+///<reference path='App.ts'/>
 ///<reference path='config.ts'/>
 
 
 /**
  * Main entry point for RequireJS
  */
+
 require(
 	[
-		'tests/App',
+		'App',
 		'jquery',
 		'stagegl-context.next',
 		'awayjs-core.next',
@@ -18,11 +19,9 @@ require(
 	(App, $) => {
 		'use strict';
 
-		$(document).ready(function ()
+		$(document).ready(function ( )
 		{
-			console.log('ready');
 			var app = new App();
-
 		});
 	}
 );

@@ -1,5 +1,5 @@
 require([
-    'tests/App',
+    'App',
     'jquery',
     'stagegl-context.next',
     'awayjs-core.next',
@@ -8,7 +8,6 @@ require([
     'use strict';
 
     $(document).ready(function () {
-        console.log('ready');
         var app = new App();
     });
 });

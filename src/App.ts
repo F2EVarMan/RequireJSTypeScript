@@ -1,9 +1,9 @@
-/// <reference path="../libs/jquery.d.ts" />
+/// <reference path="libs/jquery.d.ts" />
 
-import EventDispatcher 	= require("../kurst/events/EventDispatcher");
-import UIBase 			= require("../kurst/core/UIBase");
+import EventDispatcher 	= require("kurst/events/EventDispatcher");
+import UIBase 			= require("kurst/core/UIBase");
 import $ 				= require("jquery");
-import TorusPrimitive 	= require("../kurst/away3d/TorusPrimitive");
+import TorusPrimitive 	= require("kurst/away3d/TorusPrimitive");
 
 class App extends UIBase {
 
